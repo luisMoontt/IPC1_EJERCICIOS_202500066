@@ -1,0 +1,20 @@
+Pregunta 1 
+¿Cuál es la complejidad Big-O de insertarOrdenado que implementaste? Justifica tu respuesta.
+O(1) + O(1)
+En el caso de encontrar su lugar antes del primer nodo (nota menor) despues del ultimo nodo (nota mayor), despues se asignara en donde corresponda.
+O(n) + O(1)
+Recorrera la lista en busca de ser ser lo mas menor possible, al encontrar su lugar se asignara al lugar.
+
+
+Pregunta 2
+- Buscar al estudiante con el carnet 202300001
+ARRAY
+Ya que en ambos se tiene que recorrer la lista en busca de la coincidencia, array gana por no abarcar tanto espacio en memoria.
+
+- Agregar 500 estudiantes nuevos al inicio del registro
+LISTA ENLAZADA
+Es mas sencillo asignar al inicio con apuntadores, a tener que desplazar todos los datos de indices como en el array.
+
+- Acceder directamente al 3er estudiante de la lista
+ARRAY
+Es mas simple con los indices que tener que recorrer la lista y buscar el dato.
